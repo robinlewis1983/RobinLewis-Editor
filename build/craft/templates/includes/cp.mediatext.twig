@@ -1,0 +1,72 @@
+
+{% set mediaHeader = mediahHeader ?? null %}
+
+{% set mediaSubHeader = mediaSubHeader ?? null %}
+
+{% set mediaCompanyName = mediaCompanyName ?? null %}
+
+{% set mediaContentQoute = mediaContentQoute ?? null %}
+
+{% set mediaContentText = mediaContentText ?? null %}
+
+{% set mediaContentImg = mediaContentImg ?? null %}
+
+{% set mediaEmail = mediaEmail ?? null %}
+
+{% set mediaPhoneNumber = mediaPhoneNumber ?? null %}
+
+
+
+
+{# <div class="media-text {% if loop.index is odd %} media-text--flip {% endif %}">  #}
+<div class="media-text {% if customClass is defined %}{{ customClass }}{% elseif loop.index is odd %}media-text--flip{% endif %}">
+
+    {% if mediaContentImg | length %}
+        <div class="media-text__img">
+            {% set img = mediaContentImg.one() %}
+            <img class="media-text__img" src="{{ img.getUrl() }}" alt="{{ img.alt ?? 'Default alt text' }}" >
+        </div><!--/media-text__img-->
+    {% endif %}
+
+    <div class="media-text__blurb white-text">
+
+            {% if mediaHeader | length %} 
+                <h2> {{ mediaHeader |title }} </h2>
+            {% endif %}
+
+            {% if mediaSubHeader | length %} 
+                <h3> {{ mediaSubHeader }}</h3>
+            {% endif %}
+
+            {% if mediaCompanyName | length %} 
+                <h3> {{ mediaCompanyName }}</h3>
+            {% endif %}
+
+        <p>
+            {% if mediaContentQoute | length %}
+                <q> {{ mediaContentQoute }}</q> 
+            {% endif %}
+
+             {% if mediaContentText | length %}
+                 {{ mediaContentText }} 
+            {% endif %}
+        </p>
+
+        <p>
+
+            {% if mediaEmail | length %}
+                Email: <a href="mailto: {{ mediaEmail }}?subject=New Client Email">{{ mediaEmail }}</a>
+            {% endif %}
+
+              
+        </p>
+
+        <p>
+           {% if mediaPhoneNumber | length %}
+              Phone: {{ mediaPhoneNumber | replace('tel:','')}} 
+           {% endif %}
+        </p>
+
+    </div>   <!--/media-text__blurb-->
+ 
+ </div> 

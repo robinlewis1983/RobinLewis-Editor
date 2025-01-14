@@ -1,0 +1,131 @@
+color: green
+fieldLayouts:
+  46f4a235-55b5-4b12-8c05-6f1d88d6eb1a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-12-20T14:04:59+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a7b2682e-cd64-4fa7-906a-983f0aec5521
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-23T17:52:52+00:00'
+            elementCondition: null
+            fieldUid: 8e4c025a-9150-420a-b982-8e5ed1ea71a9 # image
+            handle: contactImage
+            includeInCards: false
+            instructions: null
+            label: 'Contact Image'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7a999883-5613-4164-a3df-fd393294d867
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-20T14:08:29+00:00'
+            elementCondition: null
+            fieldUid: f11072ae-54a1-4c5c-a32a-65fc1e212b88 # Text Block
+            handle: contactHeader
+            includeInCards: false
+            instructions: null
+            label: 'Contact Header'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e368130-52eb-4dd0-bf20-acbbfa874eee
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-20T14:08:29+00:00'
+            elementCondition: null
+            fieldUid: f11072ae-54a1-4c5c-a32a-65fc1e212b88 # Text Block
+            handle: contactBlurb
+            includeInCards: false
+            instructions: null
+            label: 'Contact Blurb'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 52fb4554-fde5-4fe4-9a8e-edae4fef8efb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-20T14:08:29+00:00'
+            elementCondition: null
+            fieldUid: 331351da-5aad-4c20-a7bc-a82179e17726 # email
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 30d2d15b-58a8-4402-bb21-ec391e597bec
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-20T14:16:36+00:00'
+            elementCondition: null
+            fieldUid: 080f15c6-ca02-4c02-8ed7-658f8b70a66c # Phonenumber
+            handle: phoneNumber
+            includeInCards: false
+            instructions: null
+            label: 'Phone Number'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c2a0f19d-2afa-42e2-b518-1ff448797231
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 85b46c04-f505-4057-9f2f-aeb97c29f3ce
+        userCondition: null
+handle: contact
+hasTitleField: true
+icon: phone
+name: Contact
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,111 @@
+dateModified: 1736528814
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - status
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      defaultSort:
+        - title
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: singles
+      tableAttributes:
+        - status
+        - link
+      type: native
+    -
+      heading: 'Page Content'
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:0460ca3e-cb50-4f9f-94dc-83a2a054ec03'
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      key: 'section:70c24ee5-4130-4dde-ad3b-a3bd03ddc94c'
+      type: native
+    -
+      key: 'section:d966fe36-b2ba-41f5-9854-31b7746f15d8' # Client Images
+      type: native
+    -
+      heading: ''
+      type: heading
+email:
+  fromEmail: hello@robinlewiseditor.co.uk
+  fromName: robinlewiseditor
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  documents:
+    hasUrls: true
+    name: Documents
+    settings:
+      path: '@webroot/uploads/documents'
+    type: craft\fs\Local
+    url: '@uploads/documents'
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/uploads/images'
+    type: craft\fs\Local
+    url: '@domain/uploads/images'
+meta:
+  __names__:
+    3ea14e33-076e-473c-842c-05359c897d77: 'Footer Blurb' # Footer Blurb
+    4edf26fa-bda3-42a2-a3e8-2acf9d33cf72: 'Featured Show' # Featured Show
+    5d0ed843-51d4-4719-8664-da7ac04cef13: images # images
+    6a0d995e-9923-485d-82de-7621a6534d00: page # page
+    8e4c025a-9150-420a-b982-8e5ed1ea71a9: image # image
+    12df72f6-3eae-4cbc-9b38-21694ead0305: Contact # Contact
+    080f15c6-ca02-4c02-8ed7-658f8b70a66c: Phonenumber # Phonenumber
+    81a99495-833f-453c-abfd-4d854837a99a: Testimonials # Testimonials
+    92fa8ce4-ec7d-4d3b-a388-3c33346fc54f: Images # Images
+    340eec0a-1a45-4640-a9ad-960853a687c2: 'Page Content' # Page Content
+    719d6de2-a8d7-454e-b213-ae8d55c75601: 'CV Button' # CV Button
+    789e248e-f85b-4912-8a0a-b8a40f05a581: Contact # Contact
+    9807db58-fea6-4dc7-b325-0ea80626c0ea: Document # Document
+    331351da-5aad-4c20-a7bc-a82179e17726: email # email
+    89250282-a62c-456e-99a7-87dbdbac98fc: Navigation # Navigation
+    a6986c40-1d21-455a-a29f-297762ae73b9: 'About Entry' # About Entry
+    badc1f60-48a9-4cbb-8dd8-015f1efd39cc: robinlewiseditor # robinlewiseditor
+    c94bdd69-20ae-427d-aeea-7b6d0696e12c: 'Content Block' # Content Block
+    c2035cb4-ff18-400d-878e-78782ab39710: Homepage # Homepage
+    d966fe36-b2ba-41f5-9854-31b7746f15d8: 'Client Images' # Client Images
+    edfceb2d-31e3-4596-8c26-9167926047ed: About # About
+    ee305b1f-b36d-464a-a2bd-5b8a5bedcbcf: documents # documents
+    f870f2d3-a1f6-4e48-8dd9-e36772a4f75f: robinlewiseditor # robinlewiseditor
+    f11072ae-54a1-4c5c-a32a-65fc1e212b88: 'Text Block' # Text Block
+system:
+  edition: solo
+  live: true
+  name: robinlewiseditor
+  schemaVersion: 5.5.0.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

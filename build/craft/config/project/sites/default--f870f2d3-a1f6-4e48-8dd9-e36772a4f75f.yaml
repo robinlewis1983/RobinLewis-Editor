@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-GB
+name: robinlewiseditor
+primary: true
+siteGroup: badc1f60-48a9-4cbb-8dd8-015f1efd39cc # robinlewiseditor
+sortOrder: 1

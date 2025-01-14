@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 92fa8ce4-ec7d-4d3b-a388-3c33346fc54f # Images
+handle: clientImages
+maxAuthors: 1
+name: 'Client Images'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  f870f2d3-a1f6-4e48-8dd9-e36772a4f75f: # robinlewiseditor
+    enabledByDefault: true
+    hasUrls: true
+    template: client-images/_entry.twig
+    uriFormat: 'client-images/{slug}'
+structure:
+  maxLevels: null
+  uid: d6e7a200-a5d9-4903-9459-fd77cdfbaf1f
+type: structure

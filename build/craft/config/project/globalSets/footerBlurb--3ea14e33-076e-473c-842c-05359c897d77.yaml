@@ -1,0 +1,28 @@
+fieldLayouts:
+  6b4b43ee-b5e8-4ac0-8c5e-c5157a5115cf:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-12-20T12:38:03+00:00'
+            elementCondition: null
+            fieldUid: f11072ae-54a1-4c5c-a32a-65fc1e212b88 # Text Block
+            handle: footerText
+            includeInCards: false
+            instructions: null
+            label: 'Footer Text'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 167fac37-34dd-4a81-b370-ab59267ad1b9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a6093c6c-bd07-42f6-a2e4-5f3b7955f378
+        userCondition: null
+handle: footerBlurb
+name: 'Footer Blurb'
+sortOrder: 3

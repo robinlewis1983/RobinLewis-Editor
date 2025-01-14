@@ -1,0 +1,28 @@
+fieldLayouts:
+  e0aef315-4287-482f-97b0-d7af3e381a75:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-12-20T12:46:42+00:00'
+            elementCondition: null
+            fieldUid: 9807db58-fea6-4dc7-b325-0ea80626c0ea # Document
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d944b093-32ba-4700-9d5f-8ace1d3f0012
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'CV button'
+        uid: fcd384ab-2703-4c56-9566-50015d58bce2
+        userCondition: null
+handle: cvButton
+name: 'CV Button'
+sortOrder: 2

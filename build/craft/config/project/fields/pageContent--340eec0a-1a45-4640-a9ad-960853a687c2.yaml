@@ -1,0 +1,24 @@
+columnSuffix: null
+handle: pageContent
+instructions: null
+name: 'Page Content'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  entryTypes:
+    - c94bdd69-20ae-427d-aeea-7b6d0696e12c # Content Block
+    - 4edf26fa-bda3-42a2-a3e8-2acf9d33cf72 # Featured Show
+    - a6986c40-1d21-455a-a29f-297762ae73b9 # About Entry
+    - 789e248e-f85b-4912-8a0a-b8a40f05a581 # Contact
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

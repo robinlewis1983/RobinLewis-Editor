@@ -1,0 +1,131 @@
+color: green
+fieldLayouts:
+  32441203-1020-4e11-a810-ecf041a8d00c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-12-20T13:08:30+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 1df9dfa3-fc90-4b26-9858-4af42bde0d33
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-20T13:16:36+00:00'
+            elementCondition: null
+            fieldUid: 8e4c025a-9150-420a-b982-8e5ed1ea71a9 # image
+            handle: contentImage
+            includeInCards: false
+            instructions: null
+            label: 'Content Image'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b1e1021f-2ed2-4f17-9132-6345f0e19038
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-20T13:16:36+00:00'
+            elementCondition: null
+            fieldUid: f11072ae-54a1-4c5c-a32a-65fc1e212b88 # Text Block
+            handle: header
+            includeInCards: false
+            instructions: null
+            label: Header
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6b127fbd-7c6d-49d4-9f38-abd3f95ccd08
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-20T13:16:36+00:00'
+            elementCondition: null
+            fieldUid: f11072ae-54a1-4c5c-a32a-65fc1e212b88 # Text Block
+            handle: subHeader
+            includeInCards: false
+            instructions: 'This can be the title or the name of the producer'
+            label: 'Sub Header'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bc41252b-6401-466b-be78-803f6e483ebf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-24T10:30:24+00:00'
+            elementCondition: null
+            fieldUid: f11072ae-54a1-4c5c-a32a-65fc1e212b88 # Text Block
+            handle: companyName
+            includeInCards: false
+            instructions: null
+            label: 'Company Name'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ab47f2e6-1936-453b-9382-527b2141c3cd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-12-20T13:16:36+00:00'
+            elementCondition: null
+            fieldUid: f11072ae-54a1-4c5c-a32a-65fc1e212b88 # Text Block
+            handle: contentText
+            includeInCards: false
+            instructions: null
+            label: 'Content Text'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7a5cb37e-93d0-4055-99c5-e9d31f629d62
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bd1ceedc-fe47-4efa-a2fe-e10caf7634d2
+        userCondition: null
+handle: contentBlock
+hasTitleField: true
+icon: align-justify
+name: 'Content Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

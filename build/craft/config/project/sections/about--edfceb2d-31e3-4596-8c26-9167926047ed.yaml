@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 6a0d995e-9923-485d-82de-7621a6534d00 # page
+handle: about
+maxAuthors: 1
+name: About
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  f870f2d3-a1f6-4e48-8dd9-e36772a4f75f: # robinlewiseditor
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_about.twig
+    uriFormat: about
+type: single

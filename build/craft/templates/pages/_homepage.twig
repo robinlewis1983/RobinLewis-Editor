@@ -1,0 +1,49 @@
+{% extends '_layout' %}
+
+
+
+{% block content %}
+
+  <div class="recent-project-div"> <!--Recent projects-->
+
+
+    {% set FeatureGridItems = entry.pageContent.all() %}
+    {% for FeaturedProjects in FeatureGridItems %}
+
+            <ul class="Recent-project-grid-ul-top">
+                    
+                <li class="recent-project-grid-li-banner">
+                  
+                    {% set showImage = FeaturedProjects.showImage.one() %}
+                        {% if showImage %}
+                            <img src="{{ showImage.getUrl() }}" alt="{{ showImage.alt ?? 'Default alt text' }}"/>
+                        {% endif %}
+
+                    {# {% set clientImage = FeaturedProjects.clientImageSmall.one() %}
+                        {% if clientImage %}
+                            <div class="clientImageSmall">
+                                <img src="{{ clientImage.getUrl() }}" alt="{{ clientImage.alt ?? 'Default alt text' }}">
+                            </div>
+                        {% endif %} #}
+
+
+                    {% if FeaturedProjects.comingSoon %}
+                      <div class="coming-soon">
+                          <h2 class="white-text">{{ FeaturedProjects.comingSoon | upper }}</h2>
+                      </div>
+                    {% endif %}
+
+                     <div class="Recent-project-banner">
+                        <h2 class="white-text"> {{ FeaturedProjects.showTilte |title }} </h2>
+                        <p class="white-text"> {{ FeaturedProjects.showBlurb | replace({'.': ''}) }}</p>
+                     </div>
+                    
+                </li> 
+            </ul>    
+    {% endfor %} 
+
+  </div>
+
+ {% include 'includes/cp.clientlist.twig'%}
+
+{% endblock %}

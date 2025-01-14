@@ -1,0 +1,14 @@
+columnSuffix: null
+handle: phonenumber
+instructions: null
+name: Phonenumber
+searchable: false
+settings:
+  maxLength: 255
+  showLabelField: false
+  showTargetField: false
+  types:
+    - tel
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Link
