@@ -1,4 +1,4 @@
-dateModified: 1736528814
+dateModified: 1737112712
 elementSources:
   craft\elements\Entry:
     -
@@ -62,14 +62,14 @@ fs:
     settings:
       path: '@webroot/uploads/documents'
     type: craft\fs\Local
-    url: '@uploads/documents'
+    url: '@web/uploads/documents'
   images:
     hasUrls: true
     name: Images
     settings:
       path: '@webroot/uploads/images'
     type: craft\fs\Local
-    url: '@domain/uploads/images'
+    url: '@web/uploads/images'
 meta:
   __names__:
     3ea14e33-076e-473c-842c-05359c897d77: 'Footer Blurb' # Footer Blurb

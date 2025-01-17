@@ -11,6 +11,9 @@ database:
     version: "8.0"
 use_dns_when_possible: true
 composer_version: "2"
+composer_root: craft
+web_environment:
+    - CRAFT_CMD_ROOT=./craft
 corepack_enable: false
 
 # Key features of DDEV's config.yaml:
