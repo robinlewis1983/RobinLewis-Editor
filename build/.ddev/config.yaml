@@ -1,6 +1,6 @@
-name: RobinLewisEditor
+name: robinlewis-editor
 type: craftcms
-docroot: public_html
+docroot: "public_html"
 php_version: "8.3"
 webserver_type: nginx-fpm
 xdebug_enabled: false
@@ -10,8 +10,8 @@ database:
     type: mysql
     version: "8.0"
 use_dns_when_possible: true
-composer_version: "2"
 composer_root: craft
+composer_version: "2"
 web_environment:
     - CRAFT_CMD_ROOT=./craft
 corepack_enable: false
