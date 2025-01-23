@@ -39,6 +39,19 @@
 
   a {color: rgb(0, 0, 0);}
 
+  p {  
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 767px){
+
+    p {  
+      max-width: 90rem;
+    }
+
+  }
+
 
   .cv-button {
 
@@ -282,6 +295,8 @@
     grid-gap: 0.2rem;
     padding:20px 5%;
     max-width: 3000px;
+    margin: 0 auto; /* Centers the grid container horizontally */
+
   }
 
   .recent-project-grid-li-banner img{
@@ -361,6 +376,8 @@
   width: 100%;
   min-height: 60vh;
   background-color: #263551d1;
+  max-width: 3000px;
+  margin: 0 auto;
 }
 
 .media-text a{
@@ -418,12 +435,13 @@
 }
 
 .media-text--flip{
-  flex-direction: row-reverse; 
+  flex-direction: row-reverse;
+  max-width: 3000px;
+  margin: 0 auto; 
 }
 
 .mediaText--OneModule{
-  flex-direction: row; 
-
+  flex-direction: row;
 }
 
 @media only screen and (max-width: 768px) {
@@ -449,6 +467,7 @@
       text-align: center; 
       padding: 50px 20px;
   }
+
 }
 
 /*--- End Media Text ---*/
